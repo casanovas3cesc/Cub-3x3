@@ -20,7 +20,7 @@ const int col9 = 2;
 const int tran1 = 11;         
 const int tran2 = 12;        
 const int tran3 = 13;
-int vel = 500;         
+int vel = 200;         
 
 //********** Setup ****************************************************************
 void setup()
@@ -46,10 +46,10 @@ void loop()
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
-  digitalWrite(col5, LOW);    
+  digitalWrite(col5, HIGH);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
-  digitalWrite(col8, LOW);   
+  digitalWrite(col8, HIGH);   
   digitalWrite(col9, LOW);    
   digitalWrite(tran1, HIGH);    
   digitalWrite(tran2, LOW);    
@@ -62,7 +62,7 @@ void loop()
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
-  digitalWrite(col6, LOW);    
+  digitalWrite(col6, HIGH);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
@@ -93,7 +93,7 @@ void loop()
   digitalWrite(col4, HIGH);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
-  digitalWrite(col7, LOW);    
+  digitalWrite(col7, HIGH);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
   digitalWrite(tran1, HIGH);    
@@ -102,7 +102,7 @@ void loop()
   
   delay(vel); 
   
-  digitalWrite(col1, LOW);    
+  digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
@@ -117,7 +117,7 @@ void loop()
   
   delay(vel);
   
-  digitalWrite(col1, LOW);    
+  digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
@@ -134,7 +134,7 @@ void loop()
    
   digitalWrite(col1, LOW);    
   digitalWrite(col2, LOW);    
-  digitalWrite(col3, LOW);    
+  digitalWrite(col3, HIGH);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
@@ -148,7 +148,7 @@ void loop()
   delay(vel);
     
   digitalWrite(col1, LOW);    
-  digitalWrite(col2, LOW);    
+  digitalWrite(col2, HIGH);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
@@ -162,7 +162,7 @@ void loop()
   
   delay(vel);  
   
-  digitalWrite(col1, LOW);    
+  digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
@@ -180,7 +180,7 @@ void loop()
   digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
-  digitalWrite(col4, LOW);    
+  digitalWrite(col4, HIGH);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
@@ -197,7 +197,7 @@ void loop()
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
-  digitalWrite(col6, LOW);    
+  digitalWrite(col6, HIGH);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
@@ -212,7 +212,7 @@ void loop()
   digitalWrite(col3, HIGH);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
-  digitalWrite(col6, LOW);    
+  digitalWrite(col6, HIGH);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
@@ -228,7 +228,7 @@ void loop()
   digitalWrite(col4, HIGH);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
-  digitalWrite(col7, LOW);    
+  digitalWrite(col7, HIGH);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
   digitalWrite(tran1, LOW);    
@@ -243,7 +243,7 @@ void loop()
   digitalWrite(col4, LOW);    
   digitalWrite(col5, HIGH);    
   digitalWrite(col6, LOW);    
-  digitalWrite(col7, LOW);    
+  digitalWrite(col7, HIGH);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
   digitalWrite(tran1, LOW);    
@@ -253,7 +253,7 @@ void loop()
   delay(vel);
     
   digitalWrite(col1, LOW);    
-  digitalWrite(col2, LOW);    
+  digitalWrite(col2, HIGH);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
@@ -267,7 +267,7 @@ void loop()
   
   delay(vel); 
    
-  digitalWrite(col1, LOW);    
+  digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
@@ -297,7 +297,7 @@ void loop()
   
   delay(vel);
     
-  digitalWrite(col1, LOW);    
+  digitalWrite(col1, HIGH);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
@@ -316,7 +316,7 @@ void loop()
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
-  digitalWrite(col5, LOW);    
+  digitalWrite(col5, HIGH);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
@@ -330,7 +330,7 @@ void loop()
   digitalWrite(col1, LOW);    
   digitalWrite(col2, HIGH);    
   digitalWrite(col3, LOW);    
-  digitalWrite(col4, LOW);    
+  digitalWrite(col4, HIGH);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
@@ -349,7 +349,7 @@ void loop()
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
-  digitalWrite(col8, LOW);   
+  digitalWrite(col8, HIGH);   
   digitalWrite(col9, LOW);    
   digitalWrite(tran1, LOW);    
   digitalWrite(tran2, LOW);    
@@ -365,7 +365,7 @@ void loop()
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
-  digitalWrite(col9, LOW);    
+  digitalWrite(col9, HIGH);    
   digitalWrite(tran1, LOW);    
   digitalWrite(tran2, LOW);    
   digitalWrite(tran3, HIGH);     
@@ -381,7 +381,7 @@ void loop()
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
   digitalWrite(col9, LOW);    
-  digitalWrite(tran1, LOW);    
+  digitalWrite(tran1, HIGH);    
   digitalWrite(tran2, LOW);    
   digitalWrite(tran3, HIGH);     
   
@@ -391,7 +391,7 @@ void loop()
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
   digitalWrite(col4, LOW);    
-  digitalWrite(col5, LOW);    
+  digitalWrite(col5, HIGH);    
   digitalWrite(col6, HIGH);    
   digitalWrite(col7, LOW);    
   digitalWrite(col8, LOW);   
@@ -420,7 +420,7 @@ void loop()
   digitalWrite(col1, LOW);    
   digitalWrite(col2, LOW);    
   digitalWrite(col3, LOW);    
-  digitalWrite(col4, LOW);    
+  digitalWrite(col4, HIGH);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
   digitalWrite(col7, LOW);    
@@ -434,7 +434,7 @@ void loop()
    
   digitalWrite(col1, LOW);    
   digitalWrite(col2, LOW);    
-  digitalWrite(col3, LOW);    
+  digitalWrite(col3, HIGH);    
   digitalWrite(col4, LOW);    
   digitalWrite(col5, LOW);    
   digitalWrite(col6, LOW);    
